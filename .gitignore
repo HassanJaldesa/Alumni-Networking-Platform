@@ -1,0 +1,28 @@
+# Dependencies and virtual environments
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+
+# Build and test files
+.next/
+dist/
+build/
+coverage/
+.pytest_cache/
+.mypy_cache/
+
+# IDE and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
